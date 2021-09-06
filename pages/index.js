@@ -1,16 +1,14 @@
 
-    import React from 'react';
+import React from 'react';
+import { Home } from '../components';
 
 
+const App = () => {
 
-    const App = () => {
+    return (
+        <Home />
+    );
 
-        return (
+};
 
-            <div>Welcome to Custom Repository</div>
-
-        );
-
-    };
-
-    export default App;
+export default App;
