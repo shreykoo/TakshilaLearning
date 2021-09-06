@@ -1,23 +1,21 @@
 
-    import React from 'react';
+import React from 'react';
+import { ThemeProvider } from '@material-ui/core/styles';
+import { theme } from '../utils/theme';
+import { Layout } from '../modules';
+import 'tailwindcss/tailwind.css';
 
-    import { ThemeProvider } from '@material-ui/core/styles';
+const MyApp = ({ Component, pageProps }) => {
 
-
-    import 'tailwindcss/tailwind.css';
-
-
-    const MyApp = ({ Component, pageProps }) => {
-
-        return (
-
-            <ThemeProvider>
+    return (
+        <ThemeProvider theme={theme}>
+            <Layout>
                 <Component {...pageProps} />
-            </ThemeProvider>
+            </Layout>
+        </ThemeProvider>
+);
 
-        );
+};
 
-    };
-
-    export default MyApp;
+export default MyApp;
 
