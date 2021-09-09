@@ -76,32 +76,7 @@ export const data = {
             id: 3,
             name: 'Class 7',
             value: 7
-        },
-        {
-            id: 4,
-            name: 'Class 8',
-            value: 8
-        },
-        {
-            id: 5,
-            name: 'Class 9',
-            value: 9
-        },
-        {
-            id: 6,
-            name: 'Class 10',
-            value: 10
-        },
-        {
-            id: 7,
-            name: 'Class 11',
-            value: 11
-        },
-        {
-            id: 8,
-            name: 'Class 12',
-            value: 12
-        },
+        }
     ],
     learningVideos: [
         {

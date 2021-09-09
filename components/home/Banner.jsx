@@ -18,7 +18,7 @@ const Banner = () => {
                     </Button>
                 </div>
                 <div>
-                    <p>Logo</p>
+                    <img src="/learningImg.svg" />
                 </div>
             </div>
         </div>

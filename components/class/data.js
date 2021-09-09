@@ -36,6 +36,34 @@ export const data = {
             id: 3,
             name: 'Science',
         }
-    ]
+    ],
+    howKidWillGrow: [
+        {
+            id: 1,
+            name: 'Frequent Practice Sessions'
+        },
+        {
+            id: 2,
+            name: 'Frequent Practice Sessions'
+        },
+        {
+            id: 3,
+            name: 'Frequent Practice Sessions'
+        }
+    ],
+    WhatHelpWeProvide: [
+        {
+            id: 1,
+            name: 'Frequent Practice Sessions'
+        },
+        {
+            id: 2,
+            name: 'Frequent Practice Sessions'
+        },
+        {
+            id: 3,
+            name: 'Frequent Practice Sessions'
+        },
+    ],
 
 }

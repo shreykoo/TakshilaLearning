@@ -1,20 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import router from 'next/router';
+import React from 'react';
 import Banner from './Banner';
 import Introduction from './Introduction';
 import { YourJourney } from 'modules';
 import ChooseSubjects from './ChooseSubjects';
+import ValueAndGrowth from './Growth';
 
 const SpecificClass = () => {
-
-    const [id, setId] = useState(null);
-    useEffect(() => {
-        setId(router.query.id)
-    }, [])
     return (
         <div>
             <Banner />
             <Introduction />
+            <ValueAndGrowth />
             <ChooseSubjects />
             <YourJourney />
         </div>

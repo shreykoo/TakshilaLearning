@@ -14,6 +14,9 @@ const Banner = () => {
                 <div>
                     <p className="text-5xl font-semibold my-4">Class {id}</p>
                 </div>
+                <div>
+                    <img src="/classImg.svg" />
+                </div>
             </div>
         </div>
     );

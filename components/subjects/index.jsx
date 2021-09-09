@@ -4,6 +4,7 @@ import ValueAndGrowth from './ValueAndGrowth';
 import PickACourse from './PickACourse';
 import VideosSection from './VideosSection';
 import Faq from './Faq';
+import StudentFeedback from './Feedback';
 
 const SubjectsPage = () => {
     return (
@@ -12,6 +13,7 @@ const SubjectsPage = () => {
             <ValueAndGrowth />
             <PickACourse />
             <VideosSection />
+            <StudentFeedback />
             <Faq />
         </div>
     );
