@@ -1,4 +1,18 @@
 export const data = {
+    howKidWillGrow: [
+        {
+            id: 1,
+            name: 'Frequent Practice Sessions'
+        },
+        {
+            id: 2,
+            name: 'Frequent Practice Sessions'
+        },
+        {
+            id: 3,
+            name: 'Frequent Practice Sessions'
+        }
+    ],
     trustedSteps: [
         {
             id: 1,
