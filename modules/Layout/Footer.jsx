@@ -4,8 +4,8 @@ import { Courses, Links } from './data';
 const Footer = () => {
     return (
         <div className="w-full bg-black p-20 text-white">
-            <div className="w-4/5 m-auto flex justify-between items-center">
-                <div className="w-1/5">
+            <div className="xl:w-4/5 2xl:w-4/5 lg:w-4/5 md:w-4/5 sm:w-full xs:w-full xxs:w-full m-auto flex flex-wrap justify-between items-center">
+                <div className="md:w-1/5 sm:w-full xs:w-full xxs:w-full">
                     <img src="./logo.png" alt="logo" style={{ height: '2em' }}  />
                     <br />
                     <div className="p-2">
@@ -20,7 +20,7 @@ const Footer = () => {
                             <p className="text-sm font-light">+91-8800-999-280</p>
                     </div>
                 </div>
-                <div className="flex justify-center items-start">
+                <div className="flex flex-wrap justify-center sm:justify-start xxs:justify-start xs:justify-start items-start">
                     <div className="mx-4">
                         <p className="font-bold">Courses</p>
                         <br />
