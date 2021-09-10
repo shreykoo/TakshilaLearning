@@ -10,7 +10,7 @@ const ChooseSubjects = () => {
                 <div className="p-20 mx-auto flex flex-wrap justify-center items-center">
                 {(data.chooseSubjects).map(item => {
                     return (
-                        <div key={item.id} className="m-2 text-left p-8 bg-white shadow-2xl" 
+                        <div key={item.id} className="xs:w-4/5 m-2 text-left p-8 bg-white shadow-2xl" 
                             style={{ 
                                 borderRadius: '12px',
                                 height: '250px',
