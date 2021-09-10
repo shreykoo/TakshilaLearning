@@ -1,6 +1,4 @@
-const FacultyPage = () => {
-    return (
-        <div>FacultyPage</div>
-    )
-}
-export default FacultyPage
+import { Faculty } from '../components';
+
+const FacultyPage = () => <Faculty />
+export default FacultyPage;
