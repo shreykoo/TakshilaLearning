@@ -4,7 +4,7 @@ const ValueAndGrowth = () => {
     return (
         <div style={{ backgroundColor: '#F8F8F8', textAlign: 'center'}} className="py-20">
             <p className="text-2xl font-bold my-2">How your kid will grow</p>
-            <div className="p-20 w-3/5 mx-auto flex flex-wrap justify-center items-center">
+            <div className="p-20 md:w-3/5 mx-auto flex flex-wrap justify-center items-center">
                 {(data.howKidWillGrow).map(item => {
                     return (
                         <div key={item.id} className="m-2 text-left p-8 bg-white" 
@@ -24,7 +24,7 @@ const ValueAndGrowth = () => {
             </div>
             <br />
             <p className="text-2xl font-bold my-2">What help do we provide</p>
-            <div className="p-20 w-3/5 mx-auto flex flex-wrap justify-center items-center">
+            <div className="p-20 md:w-3/5 mx-auto flex flex-wrap justify-center items-center">
                 {(data.WhatHelpWeProvide).map(item => {
                     return (
                         <div key={item.id} className="m-2 text-left p-8 bg-white" 

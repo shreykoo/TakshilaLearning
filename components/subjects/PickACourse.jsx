@@ -5,7 +5,7 @@ const PickACourse = () => {
     return (
         <div style={{ textAlign: 'center'}} className="py-20">
             <p className="text-2xl font-bold my-2">Pick a course</p>
-            <div className="p-20 w-4/5 mx-auto flex flex-wrap justify-center items-center">
+            <div className="p-20 md:w-4/5 mx-auto flex flex-wrap justify-center items-center">
                 {(data.pickaCourse).map(item => {
                     return (
                         <div key={item.id} className="m-2 text-left p-8 bg-white" 
@@ -24,7 +24,7 @@ const PickACourse = () => {
                 })}
             </div>
             <p className="text-2xl font-bold my-2">Content By Classes</p>
-            <div className="p-20 w-4/5 mx-auto ">
+            <div className="p-20 md:w-4/5 mx-auto ">
                 {(data.contentByClasses).map(item => {
                     return (
                         <Accordion 

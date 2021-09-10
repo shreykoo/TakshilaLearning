@@ -3,12 +3,12 @@ import { data } from './data';
 const TrustedValue = () => {
     return (
         <div style={{ backgroundColor: '#F8F8F8', textAlign: 'center'}} className="py-20">
-            <p className="text-2xl font-bold my-2">Most Trusted Online Education Portal – Takshila Learning</p>
-            <p className="text-sm font-light">
+            <p className="text-2xl font-bold my-2 px-10">Most Trusted Online Education Portal – Takshila Learning</p>
+            <p className="text-sm font-light px-10">
                 Learn from more than 200 courses at the comfort of sitting at your home. 
                 Select your courses and start studying Now!
             </p>
-            <div className="p-20 w-3/5 mx-auto flex flex-wrap justify-center items-center">
+            <div className="p-20 md:w-3/5 mx-auto flex flex-wrap justify-center items-center">
                 {(data.trustedSteps).map(item => {
                     return (
                         <div key={item.id} className="m-2 text-left p-8 bg-white" 
