@@ -1,12 +1,15 @@
 import React from 'react';
 import { Courses, Links } from './data';
+import router from 'next/router';
 
 const Footer = () => {
     return (
         <div className="w-full p-20 text-white" style={{ backgroundColor: '#000000'}}>
             <div className="xl:w-4/5 2xl:w-4/5 lg:w-4/5 md:w-4/5 sm:w-full xs:w-full xxs:w-full m-auto flex flex-wrap justify-between items-center">
                 <div className="md:w-1/5 sm:w-full xs:w-full xxs:w-full">
-                    <img src="./logo.png" alt="logo" style={{ height: '2em' }}  />
+                    <button onClick={() => router.push('/')}>
+                        <img src="./logo.png" alt="logo" style={{ height: '2em' }}  />
+                    </button>
                     <br />
                     <div className="p-2">
                         <p className="text-sm font-light">

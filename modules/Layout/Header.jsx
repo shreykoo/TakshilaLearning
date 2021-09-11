@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { IconButton, useMediaQuery } from '@material-ui/core';
+import { IconButton, useMediaQuery, Button } from '@material-ui/core';
+import router from 'next/router';
+
 
 const Header = () => {
     
@@ -11,7 +13,9 @@ const Header = () => {
         <div className="w-full px-20 py-8 bg-black" style={{ backgroundColor: '#000000'}}>
             <div className="md:w-4/5 sm:w-full xxs:w-full xs:w-full m-auto flex justify-between items-center">
                 <div style={{ flex: 2 }}>
-                    <img src="./logo.png" alt="logo" style={{ height: '2em' }}  />
+                    <button onClick={() => router.push('/')}>
+                        <img src="./logo.png" alt="logo" style={{ height: '2em' }}  />
+                    </button>
                 </div>
                 {matches ? (
                     <div style={{ position: 'relative', display: 'flex', justifyContent: 'center'}}>
@@ -36,10 +40,41 @@ const Header = () => {
                     </div>
                 ):
                     <div style={{ flex: 1,  gap: '4px' }} className="flex justify-between items-center text-white">
-                        <p>Home</p>
-                        <p>Courses</p>
-                        <p>About</p>
-                        <p>Contact</p>
+                        <Button 
+                            variant="text"
+                            color="white"
+                            size="large"
+                            onClick={() => router.push('/')}
+                            style={{ textTransform: 'none', color: 'white' }}
+                        >
+                            Home
+                        </Button>
+                        <Button 
+                            variant="text"
+                            color="primary"
+                            size="large"
+                            onClick={() => router.push('/courses')}
+                            style={{ textTransform: 'none', color: 'white' }}
+                        >
+                            Courses
+                        </Button>
+                        <Button 
+                            variant="text"
+                            color="primary"
+                            size="large"
+                            onClick={() => router.push('/about')}
+                            style={{ textTransform: 'none', color: 'white' }}
+                        >
+                            About
+                        </Button>
+                        <Button 
+                            variant="contained"
+                            color="secondary"
+                            size="large"
+                            style={{ textTransform: 'none', color: 'white' }}
+                        >
+                        Book Free Demo 
+                    </Button>
                     </div>
                 }
             </div>
