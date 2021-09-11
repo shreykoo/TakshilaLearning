@@ -8,7 +8,7 @@ const Header = () => {
     const matches = useMediaQuery('(max-width:800px)');
 
     return (
-        <div className="w-full bg-black px-20 py-8">
+        <div className="w-full px-20 py-8 bg-black" style={{ backgroundColor: '#000000'}}>
             <div className="md:w-4/5 sm:w-full xxs:w-full xs:w-full m-auto flex justify-between items-center">
                 <div style={{ flex: 2 }}>
                     <img src="./logo.png" alt="logo" style={{ height: '2em' }}  />
@@ -35,7 +35,7 @@ const Header = () => {
                         )}
                     </div>
                 ):
-                    <div style={{ flex: 1 }} className="flex justify-around items-center text-white">
+                    <div style={{ flex: 1,  gap: '4px' }} className="flex justify-between items-center text-white">
                         <p>Home</p>
                         <p>Courses</p>
                         <p>About</p>
