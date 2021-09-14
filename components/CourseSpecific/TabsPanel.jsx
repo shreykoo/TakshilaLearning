@@ -6,7 +6,7 @@ import { data } from './data';
 const TabsPanel = () => {
 
     const [ activeTab, setActiveTab ] = useState(0);
-    const [ childrenActiveTab,setChildrenActiveTab ] = useState(activeTab === 0 ? 'UPSC': 'CBSE');
+    const [ childrenActiveTab,setChildrenActiveTab ] = useState('UPSC');
     const [ activeChildrens, setActiveChildrens ] = useState(null);
 
     function filterChildren(){
@@ -16,7 +16,7 @@ const TabsPanel = () => {
             });
             setActiveChildrens(newData[0]?.children);
         }else if(activeTab === 1){
-            const newData = data.k12.filter(item => {
+            const newData = (data.k12).filter(item => {
                 return item.name === childrenActiveTab
             });
             console.log(newData, 'new data')
@@ -29,7 +29,7 @@ const TabsPanel = () => {
 
     function handleTabChange(newTab, childrenTab){
         setActiveTab(newTab);
-        setActiveChildrens(childrenTab);
+        setChildrenActiveTab(childrenTab);
     };
 
     // console.log(activeChildrens, 'active childrens');
@@ -57,9 +57,9 @@ const TabsPanel = () => {
                 </Button>
             </div>
             <hr className="border-gray-200" />
-            <div className="flex justify-start items-center p-10">
+            <div className="flex flex-wrap justify-start items-center p-10">
                 {activeTab === 0 ?
-                    <div>
+                    <div className="flex md:flex-col sm:flex-row xxs:flex-row xs:flex-row sm:mx-2 xxs:mx-2 xs:mx-2 justify-between items-start">
                         {(data.Competitive).map(item => {
                             return (
                                 <div key={item.id} onClick={() => setChildrenActiveTab(item.name)}
@@ -71,7 +71,7 @@ const TabsPanel = () => {
                         })}
                     </div>
                     :
-                    <div>
+                    <div className="flex md:flex-col sm:flex-row xxs:flex-row xs:flex-row sm:mx-2 xxs:mx-2 xs:mx-2 justify-between items-start">
                         {(data.k12).map(item => {
                             return (
                                 <div key={item.id} onClick={() => setChildrenActiveTab(item.name)}
@@ -87,7 +87,7 @@ const TabsPanel = () => {
                     {activeChildrens !== null && activeChildrens.length !== 0 && activeChildrens.map(item => {
                         return (
                             <div key={item.id} 
-                                className="p-20 m-4 border border-gray-200 rounded-md shadow-md"
+                                className="p-20 md:m-4 sm:my-2 xxs:my-2 xs:my-2 border border-gray-200 rounded-md shadow-md"
                             >
                                 {item.name}
                             </div>

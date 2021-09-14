@@ -7,12 +7,12 @@ const Banner = () => {
             <div className="flex justify-between items-center w-4/5 px-10 py-28 mx-auto ">
                 <div>
                     <p style={{ fontSize: '56px', fontFamily: 'Manrope', fontWeight: 'bold'}}>Takshila Learning</p>
-                    <p className="text-2xl font-bold my-2">Rediscover Education & Rediscover Life </p>
+                    <p className="text-3xl m-2">Rediscover Education & Rediscover Life </p>
                     <Button 
                         variant="contained"
                         color="primary"
                         size="large"
-                        style={{ textTransform: 'none'}}
+                        style={{ textTransform: 'none', margin: '10px'}}
                     >
                         Book Free Demo 
                     </Button>

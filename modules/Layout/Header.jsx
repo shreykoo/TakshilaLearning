@@ -30,7 +30,13 @@ const Header = () => {
                                 zIndex:10,
                                 borderRadius: '8px',
                                 padding: '14px',
-                            }} className="bg-gray-200">
+                                display: 'flex',
+                                minWidth: '300px',
+                                flexDirection: 'column',
+                                backgroundColor: "#000000",
+                                color: "white",
+                                border: '1px solid rgb(200, 200, 200)'
+                            }}>
                                 <Button 
                                     variant="text"
                                     color="white"
