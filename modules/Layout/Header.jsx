@@ -31,10 +31,41 @@ const Header = () => {
                                 borderRadius: '8px',
                                 padding: '14px',
                             }} className="bg-gray-200">
-                                <p>Home</p>
-                                <p>Courses</p>
-                                <p>About</p>
-                                <p>Contact</p>
+                                <Button 
+                                    variant="text"
+                                    color="white"
+                                    size="large"
+                                    onClick={() => router.push('/')}
+                                    style={{ textTransform: 'none', color: 'white' }}
+                                >
+                                    Home
+                                </Button>
+                                <Button 
+                                    variant="text"
+                                    color="primary"
+                                    size="large"
+                                    onClick={() => router.push('/courses')}
+                                    style={{ textTransform: 'none', color: 'white' }}
+                                >
+                                    Courses
+                                </Button>
+                                <Button 
+                                    variant="text"
+                                    color="primary"
+                                    size="large"
+                                    onClick={() => router.push('/about')}
+                                    style={{ textTransform: 'none', color: 'white' }}
+                                >
+                                    About
+                                </Button>
+                                <Button 
+                                    variant="contained"
+                                    color="secondary"
+                                    size="large"
+                                    style={{ textTransform: 'none', color: 'white' }}
+                                >
+                                    Book Free Demo 
+                                </Button>
                             </div>
                         )}
                     </div>
@@ -73,8 +104,8 @@ const Header = () => {
                             size="large"
                             style={{ textTransform: 'none', color: 'white' }}
                         >
-                        Book Free Demo 
-                    </Button>
+                            Book Free Demo 
+                        </Button>
                     </div>
                 }
             </div>
