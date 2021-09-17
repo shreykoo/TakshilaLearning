@@ -72,10 +72,181 @@ export const Links = [
     }
 ]
 
+export const SchoolCourses = [
+    {
+        id: 1,
+        name: 'Class 1',
+        link: '/class/1'
+    },
+    {
+        id: 2,
+        name: 'Class 2',
+        link: '/class/2'
+    },
+    {
+        id: 3,
+        name: 'Class 3',
+        link: '/class/3'
+    },
+    {
+        id: 4,
+        name: 'Class 4',
+        link: '/class/4'
+    },
+    {
+        id: 6,
+        name: 'Class 5',
+        link: '/class/5'
+    },
+    {
+        id: 7,
+        name: 'Class 6',
+        link: '/class/6'
+    },
+    {
+        id: 8,
+        name: 'Class 7',
+        link: '/class/7'
+    },
+    {
+        id: 9,
+        name: 'Class 8',
+        link: '/class/8'
+    },
+    {
+        id: 10,
+        name: 'Class 9',
+        link: '/class/9'
+    },
+    {
+        id: 11,
+        name: 'Class 10',
+        link: '/class/10'
+    },
+    {
+        id: 12,
+        name: 'Class 11',
+        link: '/class/11'
+    },
+    {
+        id: 13,
+        name: 'Class 12',
+        link: '/class/12'
+    },
+    
+]
 
+export const GetToKnowUs = [
+    {
+        id: 1,
+        name: 'About Us',
+        link: ''
+    },
+    {
+        id: 2,
+        name: 'Meet Tutors',
+        link: ''
+    },
+    {
+        id: 3,
+        name: 'Help Center',
+        link: ''
+    },
+    {
+        id: 4,
+        name: 'Honor Code',
+        link: ''
+    },
+    {
+        id: 5,
+        name: 'Accessibility',
+        link: ''
+    },
+    {
+        id: 6,
+        name: 'Careers',
+        link: ''
+    },
+    {
+        id: 7,
+        name: 'Press',
+        link: ''
+    },
+]
+export const LearnWithUs = [
+    {
+        id: 1,
+        name: 'Demo Lesson Space',
+        link: ''
+    },
+    {
+        id: 2,
+        name: 'Blogs',
+        link: ''
+    },
+    {
+        id: 3,
+        name: 'NCERT Solution',
+        link: ''
+    },
+    {
+        id: 4,
+        name: 'For Parents',
+        link: ''
+    },
+]
 
+export const PartnerWithUs = [
+    {
+        id: 1,
+        name: 'Ambassadors',
+        link: ''
+    },
+    {
+        id: 2,
+        name: 'Academic Partners',
+        link: ''
+    },
+    {
+        id: 3,
+        name: 'Become a tutor',
+        link: ''
+    },
+]
 
+export const BookSolutions = [
+    {
+        id: 1,
+        name: 'NCERT Class 1 solutions',
+        link: ''
+    },
+    {
+        id: 2,
+        name: 'NCERT Class 2 solutions',
+        link: ''
+    },
+    {
+        id: 3,
+        name: 'NCERT Class 3 solutions',
+        link: ''
+    },
+    {
+        id: 4,
+        name: 'NCERT Class 4 solutions',
+        link: ''
+    },
+]
 
-
-
+export const ProfessionalCourses = [
+    {
+        id: 1,
+        name: 'UPSC',
+        link: ''
+    },
+    {
+        id: 2,
+        name: 'CA Final',
+        link: ''
+    },
+]
 

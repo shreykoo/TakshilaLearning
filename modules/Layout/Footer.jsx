@@ -1,10 +1,16 @@
 import React from 'react';
-import { Courses, Links } from './data';
+import { Courses, GetToKnowUs, LearnWithUs, SchoolCourses, PartnerWithUs, BookSolutions, ProfessionalCourses } from './data';
 import router from 'next/router';
+import { GrFacebookOption } from 'react-icons/gr';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai';
+import { Button } from '@material-ui/core';
+
+
 
 const Footer = () => {
     return (
-        <div className="w-full p-20 text-white" style={{ backgroundColor: '#000000'}}>
+        <div className="w-full p-20 text-white" style={{ backgroundColor: '#313C38'}}>
             <div className="xl:w-4/5 2xl:w-4/5 lg:w-4/5 md:w-4/5 sm:w-full xs:w-full xxs:w-full m-auto flex flex-wrap justify-between items-center">
                 <div className="md:w-1/5 sm:w-full xs:w-full xxs:w-full">
                     <button onClick={() => router.push('/')}>
@@ -25,26 +31,87 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-wrap justify-center sm:justify-start xxs:justify-start xs:justify-start items-start">
                     <div className="mx-4">
-                        <p className="font-bold">Courses</p>
+                        <p className="font-bold">Get To Know Us</p>
                         <br />
-                        {Courses.map(item => (
+                        {GetToKnowUs.map(item => (
                             <p key={item.id} className="my-2 text-sm font-light">{item.name}</p>
                         ))}
                     </div>
                     <div className="mx-4">
-                        <p className="font-bold">Links</p>
+                        <p className="font-bold">Learn With Us</p>
                         <br />
-                        {Links.map(item => (
+                        {LearnWithUs.map(item => (
                             <p key={item.id} className="my-2 text-sm font-light">{item.name}</p>
                         ))}
                     </div>
                     <div className="mx-4">
-                        <p className="font-bold">Latest Post</p>
+                        <p className="font-bold">Partner With Us</p>
                         <br />
-                        <p className="font-light text-sm">French Revolution Class 9 History, <br /> Chapter 1 NotesAugust 26, 2021</p>
+                        {PartnerWithUs.map(item => (
+                            <p key={item.id} className="my-2 text-sm font-light">{item.name}</p>
+                        ))}
+                    </div>
+                </div>
+            </div>
+            <div className="xl:w-4/5 2xl:w-4/5 lg:w-4/5 md:w-4/5 sm:w-full xs:w-full xxs:w-full m-auto flex flex-wrap justify-between items-center">
+                <div className="md:w-1/5 sm:w-full xs:w-full xxs:w-full">
+                    <p>Connect with Us</p>
+                    <div className="flex flex-wrap justify-around items-center">
+                        <Button
+                            color="primary"
+                            startIcon={<GrFacebookOption color="white" size={22} />}
+                            variant="text"
+                            style={{ color: 'white'}}
+                        >
+                            Facebook
+                        </Button>
+                        <Button
+                            color="primary"
+                            startIcon={<FaLinkedinIn color="white" size={22} />}
+                            variant="text"
+                            style={{ color: 'white'}}
+                        >
+                            Linkedin
+                        </Button>
+                        <Button
+                            color="primary"
+                            startIcon={<AiOutlineTwitter color="white" size={22} />}
+                            variant="text"
+                            style={{ color: 'white'}}
+                        >
+                            Twitter
+                        </Button>
+                        <Button
+                            color="primary"
+                            startIcon={<AiFillYoutube color="white" size={22} />}
+                            variant="text"
+                            style={{ color: 'white'}}
+                        >
+                            Youtube
+                        </Button>
+                    </div>
+                </div>
+                <div className="flex flex-wrap justify-center sm:justify-start xxs:justify-start xs:justify-start items-start">
+                    <div className="mx-4">
+                        <p className="font-bold">School Courses</p>
                         <br />
-                        <p className="font-light text-sm">BHAKTI MOVEMENT | <br /> NCERT HISTORY CLASS <br />12 NOTES August 25, 2021</p>
-                        <p className="font-light text-sm">CMA VS CS – Which is <br /> better? August 24, 2021</p>
+                        {SchoolCourses.map(item => (
+                            <p key={item.id} className="my-2 text-sm font-light">{item.name}</p>
+                        ))}
+                    </div>
+                    <div className="mx-4">
+                        <p className="font-bold">NCERT Book <br /> Solutions</p>
+                        <br />
+                        {BookSolutions.map(item => (
+                            <p key={item.id} className="my-2 text-sm font-light">{item.name}</p>
+                        ))}
+                    </div>
+                    <div className="mx-4">
+                        <p className="font-bold">Professional <br />Courses</p>
+                        <br />
+                        {ProfessionalCourses.map(item => (
+                            <p key={item.id} className="my-2 text-sm font-light">{item.name}</p>
+                        ))}
                     </div>
                 </div>
             </div>
