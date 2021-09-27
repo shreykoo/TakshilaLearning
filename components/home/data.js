@@ -2,41 +2,50 @@ export const data = {
     howKidWillGrow: [
         {
             id: 1,
-            name: 'Frequent Practice Sessions'
+            name: 'Sharper Mind',
+            img: '/sharperMind.svg',
         },
         {
             id: 2,
-            name: 'Frequent Practice Sessions'
+            name: 'Stronger Mind',
+            img: '/strongerMind.svg'
         },
         {
             id: 3,
-            name: 'Frequent Practice Sessions'
+            name: 'Creative Mind',
+            img: '/creativeMind.svg'
         }
     ],
     trustedSteps: [
         {
             id: 1,
-            value: 'Live Interactive Classes'
+            value: 'Live Interactive Classes',
+            img: '/trustedImages/liveStream.svg'
         },
         {
             id: 2,
-            value: 'Focus on Concept Clarity'
+            value: 'Focus on Concept Clarity',
+            img: '/trustedImages/conceptClarity.svg'
         },
         {
             id: 3,
-            value: 'Frequent Practice Sessions'
+            value: 'Frequent Practice Sessions',
+            img: '/trustedImages/frequentPractise.svg'
         },
         {
             id: 4,
-            value: 'Constant Online Support'
+            value: 'Constant Online Support',
+            img: '/trustedImages/constantOnlineSupport.svg'
         },
         {
             id: 5,
-            value: 'Personal Attention'
+            value: 'Personal Attention',
+            img: '/trustedImages/personalAttention.svg'
         },
         {
             id: 6,
-            value: 'Real-life application of concepts'
+            value: 'Real-life application of concepts',
+            img: '/trustedImages/realLifeApplication.svg'
         }
     ],
     whyTakshila: [

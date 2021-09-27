@@ -1,10 +1,10 @@
-import { data } from '../subjects/data';
+import { data } from './data';
 
 const Growth = () => {
     return (
-        <div style={{ backgroundColor: '#F8F8F8', textAlign: 'center'}} className="py-20">
+        <div style={{ backgroundColor: '#F8F8F8', textAlign: 'center'}} className="py-10">
             <p className="text-2xl font-bold my-2">How your kid will grow</p>
-            <div className="p-20 md:w-3/5 mx-auto flex flex-wrap justify-center items-center">
+            <div className="p-10 md:w-3/5 mx-auto flex flex-wrap justify-center items-center">
                 {(data.howKidWillGrow).map(item => {
                     return (
                         <div key={item.id} className="m-2 text-left p-8 bg-white" 
@@ -14,10 +14,8 @@ const Growth = () => {
                                 width: '250px'
                             }}
                         >
-                            <p className="text-6xl text-left font-bold">{item.id}</p>
-                            <br />
-                            <br />
-                            <p className="text-xl text-left w-5/5">{item.name}</p>
+                            <img src={item.img} style={{ height: '10em'}} />
+                            <p className="text-xl text-center w-5/5">{item.name}</p>
                         </div>
                     )
                 })}

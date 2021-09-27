@@ -8,7 +8,7 @@ const TrustedValue = () => {
                 Learn from more than 200 courses at the comfort of sitting at your home. 
                 Select your courses and start studying Now!
             </p>
-            <div className="p-20 md:w-3/5 mx-auto flex flex-wrap justify-center items-center">
+            <div className="p-20 md:w-5/5 mx-auto flex flex-wrap justify-center items-center">
                 {(data.trustedSteps).map(item => {
                     return (
                         <div key={item.id} className="m-2 text-left p-8 bg-white" 
@@ -18,10 +18,8 @@ const TrustedValue = () => {
                                 width: '250px'
                             }}
                         >
-                            <p className="text-6xl text-left font-bold">{item.id}</p>
-                            <br />
-                            <br />
-                            <p className="text-xl text-left w-5/5">{item.value}</p>
+                            <img src={item.img} />
+                            <p className="text-xl text-center">{item.value}</p>
                         </div>
                     )
                 })}
