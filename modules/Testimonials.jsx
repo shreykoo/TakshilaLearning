@@ -4,7 +4,7 @@ import { SiYoutubetv } from 'react-icons/si';
 import { FaUserGraduate, FaChalkboardTeacher } from 'react-icons/fa';
 import { data } from 'components/Testimonial/data';
 import { Carousel } from 'react-responsive-carousel';
-import { AiOutlineRight } from 'react-icons/ai';
+import { AiFillYoutube } from 'react-icons/ai';
 import { Card, IconButton } from '@material-ui/core';
 import { useEffect } from 'react';
 import { GoPrimitiveDot } from 'react-icons/go';
@@ -29,7 +29,7 @@ const Testimonials = () => {
                         <p>220 Cities</p>
                     </div>
                     <div>
-                        <SiYoutubetv color="black" size={42} className="m-auto" />
+                        <AiFillYoutube color="black" size={42} className="m-auto" />
                         <p>10K Subscribers</p>
                     </div>
                     <div>
