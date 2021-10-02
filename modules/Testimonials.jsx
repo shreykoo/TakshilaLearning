@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { IoLocation } from 'react-icons/io5';
-import { SiYoutubetv } from 'react-icons/si';
 import { FaUserGraduate, FaChalkboardTeacher } from 'react-icons/fa';
 import { data } from 'components/Testimonial/data';
 import { Carousel } from 'react-responsive-carousel';
