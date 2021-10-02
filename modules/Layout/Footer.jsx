@@ -2,8 +2,7 @@ import React from 'react';
 import { Courses, GetToKnowUs, LearnWithUs, SchoolCourses, PartnerWithUs, BookSolutions, ProfessionalCourses } from './data';
 import router from 'next/router';
 import { GrFacebookOption } from 'react-icons/gr';
-import { FaLinkedinIn } from 'react-icons/fa';
-import { AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai';
+import { AiOutlineTwitter, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
 import { Button } from '@material-ui/core';
 
 
@@ -69,7 +68,7 @@ const Footer = () => {
                         </Button>
                         <Button
                             color="primary"
-                            startIcon={<FaLinkedinIn color="white" size={22} />}
+                            startIcon={<AiFillLinkedin color="white" size={22} />}
                             variant="text"
                             style={{ color: 'white'}}
                         >

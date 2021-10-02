@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { IoLocation } from 'react-icons/io5';
-import { FaUserGraduate, FaChalkboardTeacher } from 'react-icons/fa';
 import { data } from 'components/Testimonial/data';
 import { Carousel } from 'react-responsive-carousel';
 import { AiFillYoutube } from 'react-icons/ai';
 import { Card, IconButton } from '@material-ui/core';
 import { useEffect } from 'react';
 import { GoPrimitiveDot } from 'react-icons/go';
+import { GiTeacher, GiGraduateCap } from 'react-icons/gi';
 
 const Testimonials = () => {
     
@@ -32,11 +32,11 @@ const Testimonials = () => {
                         <p>10K Subscribers</p>
                     </div>
                     <div>
-                        <FaUserGraduate color="black" size={42} className="m-auto" />
+                        <GiGraduateCap color="black" size={42} className="m-auto" />
                         <p>22K Students</p>
                     </div>
                     <div>
-                        <FaChalkboardTeacher color="black" size={42} className="m-auto" />
+                        <GiTeacher color="black" size={42} className="m-auto" />
                         <p>100+ Teachers</p>
                     </div>
                 </div>
