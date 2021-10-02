@@ -3,7 +3,9 @@ const Courses = () => {
     return (
         <div className="md:p-20">
             <p className="text-2xl text-center font-bold">Academic Courses</p>
-            <div className="flex flex-wrap justify-around items-start w-4/5 px-10 py-28 mx-auto ">
+            <br />
+            <br />
+            <div className="flex flex-wrap justify-around items-start w-4/5 px-10 mx-auto ">
                 <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full ">
                     <p className="text-2xl font-semibold">
                         Live interactive sessions, Well-explained online classes, Friendly learning environment
@@ -20,8 +22,15 @@ const Courses = () => {
                     <img src="/accademicCourses.png" style={{ height: '14rem', objectFit: 'cover'}}  />
                 </div>
             </div>
+            <br />
+            <br />
             <p className="text-2xl text-center font-bold">Professional Courses</p>
-            <div className="flex flex-wrap justify-around items-center w-4/5 px-10 py-28 mx-auto ">
+            <br />
+            <br />
+            <div className="flex flex-wrap justify-around items-center w-4/5 px-10 mx-auto ">
+                <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full  border rounded-md border-gray-200 p-10 shadow-md">
+                    <img src="/learningImg.svg" style={{ height: '14rem', objectFit: 'cover'}}  />
+                </div>
                 <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full ">
                     <p className="text-2xl font-semibold">
                         Focus on Key Learning Areas, Taught by Subject Matter Experts, Provide real-time case studies 
@@ -32,9 +41,6 @@ const Courses = () => {
                         Chartered Accountancy - CA Foundation, CA Intermediate, and CA Final
                         Certified Management Accountant - CMA Foundation, CMA Intermediate, and CMA Final
                     </p>
-                </div>
-                <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full  border rounded-md border-gray-200 p-10 shadow-md">
-                    <img src="/learningImg.svg" style={{ height: '14rem', objectFit: 'cover'}}  />
                 </div>
             </div>
         </div>

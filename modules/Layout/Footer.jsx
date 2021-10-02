@@ -10,8 +10,8 @@ import { Button } from '@material-ui/core';
 
 const Footer = () => {
     return (
-        <div className="w-full p-20 text-white" style={{ backgroundColor: '#313C38'}}>
-            <div className="xl:w-4/5 2xl:w-4/5 lg:w-4/5 md:w-4/5 sm:w-full xs:w-full xxs:w-full m-auto flex flex-wrap justify-between items-center">
+        <div className="w-full md:p-20 xxs:p-2 xs:p-2 sm:p-2 text-white" style={{ backgroundColor: '#313C38'}}>
+            <div className="xl:w-4/5 2xl:w-4/5 lg:w-4/5 md:w-4/5 sm:w-full xs:w-full xxs:w-full m-auto flex flex-wrap justify-between items-start">
                 <div className="md:w-1/5 sm:w-full xs:w-full xxs:w-full">
                     <button onClick={() => router.push('/')}>
                         <img src="./logo.png" alt="logo" style={{ height: '2em' }}  />
@@ -53,8 +53,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="xl:w-4/5 2xl:w-4/5 lg:w-4/5 md:w-4/5 sm:w-full xs:w-full xxs:w-full m-auto flex flex-wrap justify-between items-center">
-                <div className="md:w-1/5 sm:w-full xs:w-full xxs:w-full">
+            <br />
+            <br />
+            <div className="xl:w-4/5 2xl:w-4/5 lg:w-4/5 md:w-4/5 sm:w-full xs:w-full xxs:w-full m-auto flex flex-wrap justify-between items-start">
+                <div className="md:w-1/5 sm:w-full xs:w-full xxs:w-full xxs:my-8 xs:my-8 sm:my-8">
                     <p>Connect with Us</p>
                     <div className="flex flex-wrap justify-around items-center">
                         <Button

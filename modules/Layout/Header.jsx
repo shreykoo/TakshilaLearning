@@ -10,7 +10,7 @@ const Header = () => {
     const matches = useMediaQuery('(max-width:800px)');
 
     return (
-        <div className="w-full px-20 py-8 bg-black" style={{ backgroundColor: '#000000'}}>
+        <div className="w-full md:px-20 md:py-8 sm:p-4 xxs:p-4 xs:p-4 bg-black" style={{ backgroundColor: '#000000'}}>
             <div className="md:w-4/5 sm:w-full xxs:w-full xs:w-full m-auto flex justify-between items-center">
                 <div style={{ flex: 2 }}>
                     <button onClick={() => router.push('/')}>

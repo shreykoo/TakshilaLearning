@@ -1,21 +1,25 @@
 import { data } from './data';
+import { makeStyles, Card } from '@material-ui/core';
+
 
 const WhatWeOffer = () => {
+
+    const styles = useStyles();
+
     return (
-        <div className="flex justify-between items-center" style={{ backgroundColor: '#46A573', maxWidth: '100vw'}}>
+        <div className={styles.root}>
             <div className="px-20 py-28 mx-auto ">
                 <p className="text-6xl font-bold text-center">What do we offer</p>
                 <br />
-                <div className="w-full flex justify-between items-start overflow-scroll">
+                <div className={styles.scrollContainer}>
                     {(data.whatWeOffer).map(item => {
                         return (
-                            <p 
+                            <div
                                 key={item.id} 
-                                className="text-xl p-4 bg-white rounded-xl m-2"
-                                style={{ minHeight: '80px', width: '300px', textAlign: 'center'}}
+                                className={styles.card}
                             >
-                                    {item.value}
-                            </p>
+                                <p>{item.value}</p>
+                            </div>
                         )
                     })}
                 </div>
@@ -24,4 +28,30 @@ const WhatWeOffer = () => {
     )
 };
 
+export const useStyles = makeStyles(theme => ({
+    root: {
+        backgroundColor: '#46A573',
+        margin: 'auto',
+        textAlign: 'center',
+        flexWrap: 'wrap'
+    },
+    scrollContainer: {
+        width: '98%',
+        margin: 'auto',
+        overflow: 'scroll',
+        display: 'flex',
+        justifyContent: 'flex-start',
+        alignItems: 'start',
+        padding: 10,
+    },
+    card: {
+        minWidth: '250px',
+        minHeight: '80px',
+        textAlign: 'left',
+        backgroundColor: '#F8F8F8',
+        padding: 10,
+        borderRadius: 8,
+        margin: 4,
+    }
+}))
 export default WhatWeOffer;
