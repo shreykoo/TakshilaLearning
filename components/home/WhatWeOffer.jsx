@@ -8,7 +8,7 @@ const WhatWeOffer = () => {
 
     return (
         <div className={styles.root}>
-            <div className="px-20 py-28 mx-auto ">
+            <div className="md:px-20 py-20 mx-auto ">
                 <p className="text-6xl font-bold text-center">What do we offer</p>
                 <br />
                 <div className={styles.scrollContainer}>

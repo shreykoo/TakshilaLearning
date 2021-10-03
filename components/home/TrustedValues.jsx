@@ -8,7 +8,7 @@ const TrustedValue = () => {
                 Learn from more than 200 courses at the comfort of sitting at your home. 
                 Select your courses and start studying Now!
             </p>
-            <div className="p-20 md:w-5/5 mx-auto flex flex-wrap justify-center items-center">
+            <div className="md:p-14 sm:p-8 xxs:p-8 xs:p-8 md:w-5/5 mx-auto flex flex-wrap justify-center items-center">
                 {(data.trustedSteps).map(item => {
                     return (
                         <div key={item.id} className="m-2 text-left p-8 bg-white" 

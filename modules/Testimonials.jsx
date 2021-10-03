@@ -1,16 +1,14 @@
 import { useState } from 'react';
 import { IoLocation } from 'react-icons/io5';
 import { data } from 'components/Testimonial/data';
-import { Carousel } from 'react-responsive-carousel';
 import { AiFillYoutube } from 'react-icons/ai';
 import { Card, IconButton } from '@material-ui/core';
-import { useEffect } from 'react';
 import { GoPrimitiveDot } from 'react-icons/go';
 import { GiTeacher, GiGraduateCap } from 'react-icons/gi';
 
 const Testimonials = () => {
     
-    const [active, setActive] = useState(0);
+    const [active, setActive] = useState(1);
     const [ activeData, setActiveData ] = useState(data[0])
 
     function setActiveState(id){
@@ -69,7 +67,7 @@ const Testimonials = () => {
                                     width: '10px', height:'10px', padding: 10
                                 }} 
                             >
-                                <GoPrimitiveDot color="primay" size={18} />
+                                <GoPrimitiveDot color={active === item.id ? 'black': 'white'} size={24} />
                             </IconButton>
                         )
                     } )}

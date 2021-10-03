@@ -52,17 +52,20 @@ export const data = {
         {
             id: 1,
             heading: 'What is Education?',
-            value: 'Concept clarity = critical thinkers and higher aptitudes'
+            value: 'Concept clarity = critical thinkers and higher aptitudes',
+            valueTwo: 'Higher marks = good college'
         },
         {
             id: 2,
             heading: 'What do you want to do in life?',
-            value: 'Out of the box thinking = Creating jobs = Greater money'
+            value: 'Out of the box thinking = Creating jobs = Greater money',
+            valueTwo: 'Steady education = Getting a stable job = Good money'
         },
         {
             id: 3,
             heading: 'How do you want to live life?',
-            value: 'Lead your way instead of following trend'
+            value: 'Lead your way instead of following trend',
+            valueTwo: 'Out of the box thinking = Creating jobs = Greater money'
         }
     ],
     whatWeOffer: [

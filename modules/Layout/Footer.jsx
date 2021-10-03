@@ -6,7 +6,6 @@ import { AiOutlineTwitter, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai'
 import { Button } from '@material-ui/core';
 
 
-
 const Footer = () => {
     return (
         <div className="w-full md:p-20 xxs:p-2 xs:p-2 sm:p-2 text-white" style={{ backgroundColor: '#313C38'}}>
