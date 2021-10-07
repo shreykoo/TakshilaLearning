@@ -3,10 +3,9 @@ import { data } from './data';
 const TrustedValue = () => {
     return (
         <div style={{ backgroundColor: '#F8F8F8', textAlign: 'center'}} className="py-20">
-            <p className="text-2xl font-bold my-2 px-10">Most Trusted Online Education Portal – Takshila Learning</p>
+            <p className="text-2xl font-bold my-2 px-10">At Takshila Learning, we help nurture you to your best selves. </p>
             <p className="text-sm font-light px-10">
-                Learn from more than 200 courses at the comfort of sitting at your home. 
-                Select your courses and start studying Now!
+                Select your course, buddy! We’re ready to help you study!
             </p>
             <div className="md:p-14 sm:p-8 xxs:p-8 xs:p-8 md:w-5/5 mx-auto flex flex-wrap justify-center items-center">
                 {(data.trustedSteps).map(item => {

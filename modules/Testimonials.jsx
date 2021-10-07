@@ -27,7 +27,7 @@ const Testimonials = () => {
                     </div>
                     <div>
                         <AiFillYoutube color="black" size={42} className="m-auto" />
-                        <p>10K Subscribers</p>
+                        <p>60K+ Subscribers</p>
                     </div>
                     <div>
                         <GiGraduateCap color="black" size={42} className="m-auto" />

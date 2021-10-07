@@ -52,8 +52,8 @@ export const data = {
         {
             id: 1,
             heading: 'What is Education?',
-            value: 'Concept clarity = critical thinkers and higher aptitudes',
-            valueTwo: 'Higher marks = good college'
+            value: 'Concept clarity = Critical thinkers and Higher aptitudes',
+            valueTwo: 'Higher marks = Good college'
         },
         {
             id: 2,
@@ -64,8 +64,8 @@ export const data = {
         {
             id: 3,
             heading: 'How do you want to live life?',
-            value: 'Lead your way instead of following trend',
-            valueTwo: 'Out of the box thinking = Creating jobs = Greater money'
+            value: 'Lead your way',
+            valueTwo: 'Follow the trend'
         }
     ],
     whatWeOffer: [

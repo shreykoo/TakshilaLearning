@@ -176,7 +176,7 @@ export const GetToKnowUs = [
 export const LearnWithUs = [
     {
         id: 1,
-        name: 'Demo Lesson Space',
+        name: 'Book a Demo Lesson',
         link: ''
     },
     {
@@ -235,6 +235,52 @@ export const BookSolutions = [
         name: 'NCERT Class 4 solutions',
         link: ''
     },
+    {
+        id: 5,
+        name: 'NCERT Class 5 solutions',
+        link: ''
+    },
+    {
+        id: 6,
+        name: 'NCERT Class 6 solutions',
+        link: ''
+    },
+    {
+        id: 7,
+        name: 'NCERT Class 7 solutions',
+        link: ''
+    },
+    {
+        id: 8,
+        name: 'NCERT Class 8 solutions',
+        link: ''
+    },
+    {
+        id: 4,
+        name: 'NCERT Class 4 solutions',
+        link: ''
+    },
+    {
+        id: 9,
+        name: 'NCERT Class 9 solutions',
+        link: ''
+    },
+    {
+        id: 10,
+        name: 'NCERT Class 10 solutions',
+        link: ''
+    },
+    {
+        id: 11,
+        name: 'NCERT Class 11 solutions',
+        link: ''
+    },
+    {
+        id: 12,
+        name: 'NCERT Class 12 solutions',
+        link: ''
+    },
+
 ]
 
 export const ProfessionalCourses = [
@@ -248,5 +294,46 @@ export const ProfessionalCourses = [
         name: 'CA Final',
         link: ''
     },
+    {
+        id: 3,
+        name: 'CSEET',
+        link: ''
+    },
+    {
+        id: 4,
+        name: 'CS Executive',
+        link: ''
+    },
+    {
+        id: 5,
+        name: 'CS Professional',
+        link: ''
+    },
+    {
+        id: 6,
+        name: 'CA Foundation',
+        link: ''
+    },
+    {
+        id: 7,
+        name: 'CA Intermediate',
+        link: ''
+    },
+    {
+        id: 8,
+        name: "CA Final"
+    },
+    {
+        id: 9,
+        name: 'CMA Foundation'
+    },
+    {
+        id: 10,
+        name: 'CMA Intermediate'
+    },
+    {
+        id: 11,
+        name: 'CMA Final'
+    }
 ]
 
