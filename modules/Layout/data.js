@@ -256,11 +256,6 @@ export const BookSolutions = [
         link: ''
     },
     {
-        id: 4,
-        name: 'NCERT Class 4 solutions',
-        link: ''
-    },
-    {
         id: 9,
         name: 'NCERT Class 9 solutions',
         link: ''
