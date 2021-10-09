@@ -7,25 +7,25 @@ export const data = {
         },
         {
             id: 2,
-            name: 'Stronger Mind',
-            img: '/strongerMind.svg'
+            name: 'Creative Mind',
+            img: '/creativeMind.svg',
         },
         {
             id: 3,
-            name: 'Creative Mind',
-            img: '/creativeMind.svg'
+            name: 'Stronger Mind',
+            img: '/strongerMind.svg'
         }
     ],
     trustedSteps: [
         {
             id: 1,
             value: 'Live Interactive Classes',
-            img: '/trustedImages/liveStream.svg'
+            img: '/trustedImages/conceptClarity.svg'
         },
         {
             id: 2,
             value: 'Focus on Concept Clarity',
-            img: '/trustedImages/conceptClarity.svg'
+            img: '/trustedImages/liveStream.svg'
         },
         {
             id: 3,

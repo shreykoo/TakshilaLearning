@@ -4,19 +4,21 @@ const Courses = () => {
         <div className="md:p-20 py-10">
             <p className="text-2xl text-center font-bold">Academic Courses</p>
             <br />
-            <br />
             <div className="flex flex-wrap justify-around items-start w-4/5 md:px-10 mx-auto ">
-                <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full ">
-                    <p className="text-2xl xxs:text-md xs:text-md  font-semibold">
-                        Live interactive sessions, Well-explained online classes, Friendly learning environment
-                    </p>
-                    <p className="xxs:text-sm xs:text-sm">
-                        We aim at providing well-constructed live tuition courses for CBSE, ISCE, 
-                        IGSCE and International Boards for classes K-12. Our online tuitions align 
-                        our vision of school education with concept clarity to prepare students for 
-                        greater academic results and finer application of concepts in our day to day lives. 
-                        We also promote timely completion of the curriculum for frequent revision because practise makes perfect!
-                    </p>
+                <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full my-4">
+                    <b>Classes Covered</b> - K-12
+                    <br />
+                    <b>Boards Covered</b> - CBSE, ISCE, IGSCE, International Boards
+                    <br />
+                    <b>Class Highlights</b>
+                    <ol className="list-disc px-8">
+                        <li>Concept Clarity </li>
+                        <li>Live Interactive Sessions</li>
+                        <li>Well-explained online classes</li>
+                        <li>Friendly Learning Environment</li>
+                        <li>Greater Academic Results</li>
+                        <li>Overall Personality Development</li>
+                    </ol>
                 </div>
                 <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full border rounded-md border-gray-200 p-10 shadow-md">
                     <img src="/accademicCourses.png" style={{ height: '14rem', objectFit: 'cover'}}  />
@@ -31,16 +33,19 @@ const Courses = () => {
                 <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full  border rounded-md border-gray-200 p-10 shadow-md">
                     <img src="/learningImg.svg" style={{ height: '14rem', objectFit: 'cover'}}  />
                 </div>
-                <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full ">
-                    <p className="text-2xl xxs:text-md xs:text-md font-semibold">
-                        Focus on Key Learning Areas, Taught by Subject Matter Experts, Provide real-time case studies 
-                    </p>
-                    <p className="xxs:text-sm xs:text-sm">
-                        Takshila Learning provides greatly crafted professional courses that are delivered by expert faculty in the industry, with constant assistance as needed. Our courses include live/recorded video lectures with mock tests to match the needs of each student for the courses mentioned below - 
-                        Company Secretary - CSEET, CS Executive, and CS Professional
-                        Chartered Accountancy - CA Foundation, CA Intermediate, and CA Final
-                        Certified Management Accountant - CMA Foundation, CMA Intermediate, and CMA Final
-                    </p>
+                <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full my-4">
+                    <p><b>Company Secretary</b> - CSEET, CS Executive, and CS Professional</p>
+                    <p><b>Chartered Accountancy</b> - CA Foundation, CA Intermediate, and CA Final</p>
+                    <p><b>Certified Management Accountant</b> - CMA Foundation, CMA Intermediate, and CMA Final</p>
+                    <b>Class Highlights</b>
+                    <ol className="list-disc px-8">
+                        <li>Focus on Key Learning Areas</li>
+                        <li>Taught by Subject Matter Experts</li>
+                        <li>Provide real-time case studies</li>
+                        <li>Mock tests</li>
+                        <li>Live/recorded video lectures</li>
+                        <li>Constant assistance</li>
+                    </ol>
                 </div>
             </div>
         </div>

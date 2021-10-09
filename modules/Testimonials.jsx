@@ -19,21 +19,21 @@ const Testimonials = () => {
 
     return (
         <div className="w-full md:p-20 sm:p-5" style={{ backgroundColor: '#46A573'}}>
-            <div className="flex flex-wrap justify-between items-center w-4/5 px-10 py-28 mx-auto ">
-                <div className="flex flex-wrap md:w-3/5 mx-auto justify-between items-start">
-                    <div>
+            <div className="flex flex-wrap justify-between gap-8 items-center w-4/5 md:px-10 py-28 mx-auto ">
+                <div className="flex flex-wrap md:w-3/5 mx-auto justify-between items-start my-4">
+                    <div className="my-4">
                         <IoLocation color="black" size={42} className="m-auto" />
                         <p>220 Cities</p>
                     </div>
-                    <div>
+                    <div  className="my-4">
                         <AiFillYoutube color="black" size={42} className="m-auto" />
                         <p>60K+ Subscribers</p>
                     </div>
-                    <div>
+                    <div  className="my-4">
                         <GiGraduateCap color="black" size={42} className="m-auto" />
                         <p>22K Students</p>
                     </div>
-                    <div>
+                    <div className="my-4">
                         <GiTeacher color="black" size={42} className="m-auto" />
                         <p>100+ Teachers</p>
                     </div>
