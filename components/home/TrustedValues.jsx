@@ -13,12 +13,13 @@ const TrustedValue = () => {
                         <div key={item.id} className="m-2 text-left p-8 bg-white" 
                             style={{ 
                                 boxShadow: '19.2107px 19.2107px 7.68426px rgba(231, 231, 231, 0.4)', borderRadius: '12px',
-                                height: '250px',
+                                height: '280px',
                                 width: '250px'
                             }}
                         >
                             <img src={item.img} />
                             <p className="text-xl text-center">{item.value}</p>
+                            <br />
                         </div>
                     )
                 })}

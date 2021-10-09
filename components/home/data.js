@@ -34,7 +34,7 @@ export const data = {
         },
         {
             id: 4,
-            value: 'Constant Online Support',
+            value: 'Strengthening parent-teacher relationship',
             img: '/trustedImages/constantOnlineSupport.svg'
         },
         {
