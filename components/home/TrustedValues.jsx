@@ -17,7 +17,7 @@ const TrustedValue = () => {
                                 width: '250px'
                             }}
                         >
-                            <img src={item.img} />
+                            <img src={item.img} style={{ objectFit: 'contain', height: '150px'}} />
                             <p className="text-xl text-center">{item.value}</p>
                             <br />
                         </div>

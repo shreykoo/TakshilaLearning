@@ -31,7 +31,7 @@ const Courses = () => {
             <br />
             <div className="flex flex-wrap justify-around items-center w-4/5 md:px-10 mx-auto ">
                 <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full  border rounded-md border-gray-200 p-10 shadow-md">
-                    <img src="/learningImg.svg" style={{ height: '14rem', objectFit: 'cover'}}  />
+                    <img src="/learningImg.jpg" style={{ height: '14rem', objectFit: 'contain', width: '100%',  }}  />
                 </div>
                 <div className="md:w-2/5 sm:w-full xxs:w-full xs:w-full my-4">
                     <p><b>Company Secretary</b> - CSEET, CS Executive, and CS Professional</p>

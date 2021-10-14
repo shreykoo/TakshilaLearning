@@ -28,25 +28,20 @@ export const data = {
             img: '/trustedImages/liveStream.svg'
         },
         {
-            id: 3,
-            value: 'Frequent Practice Sessions',
-            img: '/trustedImages/frequentPractise.svg'
-        },
-        {
-            id: 4,
-            value: 'Strengthening parent-teacher relationship',
-            img: '/trustedImages/constantOnlineSupport.svg'
-        },
-        {
             id: 5,
             value: 'Personal Attention',
             img: '/trustedImages/personalAttention.svg'
         },
         {
+            id: 3,
+            value: 'Frequent Practice Sessions',
+            img: '/trustedImages/frequentPractise.svg'
+        },
+        {
             id: 6,
-            value: 'Real-life application of concepts',
-            img: '/trustedImages/realLifeApplication.svg'
-        }
+            value: 'Strengthening parent-teacher relationship',
+            img: '/trustedImages/realLifeApplication.jpg'
+        },
     ],
     whyTakshila: [
         {
